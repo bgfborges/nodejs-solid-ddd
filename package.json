@@ -17,7 +17,11 @@
   },
   "homepage": "https://github.com/ikoba218/nodejs-solid-ddd#readme",
   "devDependencies": {
+    "@types/module-alias": "^2.0.1",
     "@types/node": "^16.7.1",
     "typescript": "^4.3.5"
+  },
+  "dependencies": {
+    "module-alias": "^2.2.2"
   }
 }
