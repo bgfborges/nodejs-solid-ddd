@@ -1,0 +1,19 @@
+{
+  "name": "ailouiseerp",
+  "version": "1.0.0",
+  "description": "aiLouise ERP",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ikoba218/nodejs-solid-ddd.git"
+  },
+  "author": "Gabriel Borges",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ikoba218/nodejs-solid-ddd/issues"
+  },
+  "homepage": "https://github.com/ikoba218/nodejs-solid-ddd#readme"
+}
