@@ -10,7 +10,9 @@
     "start:dev": "ts-node-dev 'src/index.ts'",
     "test:functional": "jest --projects ./test --runInBand",
     "lint": "eslint ./src ./test --ext .ts",
-    "lint:fix": "eslint ./src ./test --ext .ts --fix"
+    "lint:fix": "eslint ./src ./test --ext .ts --fix",
+    "style:check": "prettier --check 'src/**/*.ts' 'test/**/*.ts'",
+    "style:fix": "prettier --write 'src/**/*.ts' 'test/**/*.ts'"
   },
   "engines": {
     "node": "14"
@@ -35,6 +37,7 @@
     "@typescript-eslint/parser": "^4.29.2",
     "eslint": "^7.32.0",
     "jest": "^27.0.6",
+    "prettier": "^2.3.2",
     "supertest": "^6.1.6",
     "ts-jest": "^27.0.5",
     "ts-node-dev": "^1.1.8",
